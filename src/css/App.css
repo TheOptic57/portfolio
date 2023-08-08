@@ -1,0 +1,80 @@
+
+:root {
+    --padding-fit: calc(3px + 0.8vw);
+    --font-sizes: calc(13px + 0.3vw);
+  }
+
+.NavBar {
+    overflow: auto;
+    background-color: #232323; 
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    z-index:100;
+}
+
+.NavBar a {
+    font-family: Sans-serif;
+    float: left;
+    font-size: var(--font-sizes);
+    color: white;
+    padding: var(--padding-fit);
+    text-decoration: none;
+}
+.Blue {
+    background-color: #2d45fc;
+}
+
+.DropDown {
+    float: left;
+    overflow: hidden;
+}
+
+.HoverDrop {
+    font-family: Sans-serif;
+    font-size: var(--font-sizes);  
+    color: white;
+    padding: var(--padding-fit);
+}
+
+.NavBar a:hover, .DropDown:hover .HoverDrop {
+    background-color: #505050;
+    cursor:pointer;
+}
+/*
+two displays for drop down
+DropdownContentHidden is default and
+.DropdownContent for onclick
+*/
+.DropdownContentHidden{
+    display: none;
+}
+.DropdownContent{
+    font-family: monospace;
+    display: block;
+    background-color: #232323;
+    z-index: 1;
+    position: fixed;
+}
+
+.DropdownContent a {
+    font-size: var(--font-sizes);; 
+    color: white;
+    padding: var(--padding-fit);
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.DropdownContent a:hover {
+    background-color: #505050;
+}
+/*
+instead of having an onclick event hover can trigger display: block with css 
+however mouse movement with it sucks as being slightly over can trigger it back to display: none
+*/
+/*
+.DropDown:hover .DropdownContent {
+    display: block;
+}
+*/
