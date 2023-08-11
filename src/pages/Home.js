@@ -69,7 +69,7 @@ function Home() {
           </div>
         </div>
         <div className = "pt-16 md:col-span-2">
-          <img src={profile} alt="Profile Pic" className = "rounded-full  mx-auto w-4/5 pb-4/5"/>
+          <img src={profile} alt="Profile Pic" className = "rounded-full  mx-auto w-2/3 pb-2/3"/>
         </div>
       </div>
     </div>

@@ -1,11 +1,11 @@
-import pict1 from "../images/p1.PNG"
-import pict2 from "../images/pict2.PNG"
+import pict1 from "../images/pict1edit.PNG"
+import pict2 from "../images/pict2edit.PNG"
 import pict3 from "../images/pict3.PNG"
 function Information() {
   return (
     <div className="Information px-[5%] bg-grey font-mono md:grid md:grid-cols-9">
         <div className = "text-left md:col-span-4 flex flex-col flex justify-center"> 
-        <h1 className = "font-mono text-lg md:text-2xl lg:text-5xl font-bold underline text-blue-600">About me</h1>
+        <h1 className = "font-mono text-lg md:text-2xl lg:text-5xl font-bold text-blue-600">About me</h1>
           <p className = "pt-[3%] text-xs md:text-xl lg:text-2xl font-medium">
             I graduated from Univeristy of Central Florida with a B.S. in Computer Science degree with a 3.75 GPA.
             <br/> <br/>

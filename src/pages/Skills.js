@@ -10,7 +10,7 @@ import Tailwind from "../images/tailwind.png"
 function Skills() {
   return (
     <div className="Skills h-screen">
-      <h1 className = "font-mono text-2xl lg:text-4xl font-semibold underline text-blue-600 pl-8 pt-[5%]">
+      <h1 className = "font-mono text-2xl lg:text-4xl font-semibold text-blue-600 pl-8 pt-[5%]">
         Some Skills I have
       </h1>
       <div className = "flex justify-evenly">
