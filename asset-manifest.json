@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ce85f1e2.css",
-    "main.js": "/portfolio/static/js/main.6cb522d2.js",
+    "main.css": "/portfolio/static/css/main.19325b3b.css",
+    "main.js": "/portfolio/static/js/main.5fa21076.js",
     "static/media/words_alpha.txt": "/portfolio/static/media/words_alpha.656453492b8df68ae805.txt",
     "static/media/profilepic.jpg": "/portfolio/static/media/profilepic.dc4a4d4a11694bb9e2d2.jpg",
     "static/media/pict3.PNG": "/portfolio/static/media/pict3.fd2301d2c493faf2fe61.PNG",
@@ -11,21 +11,21 @@
     "static/media/UnityGame4.png": "/portfolio/static/media/UnityGame4.47e3dd861fe33208d7ae.png",
     "static/media/React-icon.png": "/portfolio/static/media/React-icon.8a6fc0a24a800d1e0f4a.png",
     "static/media/UnityGame3.png": "/portfolio/static/media/UnityGame3.d66f0ade3010a2e4d428.png",
-    "static/media/pict2.PNG": "/portfolio/static/media/pict2.ef82126d360e97544b80.PNG",
     "static/media/1667px-Figma-logo.png": "/portfolio/static/media/1667px-Figma-logo.b08682c3a0753f59813f.png",
-    "static/media/p1.PNG": "/portfolio/static/media/p1.5c351d63e07236616329.PNG",
+    "static/media/pict2edit.PNG": "/portfolio/static/media/pict2edit.bdc317a3c3a1b3ae5ba2.PNG",
     "static/media/CSS3_logo_and_wordmark.png": "/portfolio/static/media/CSS3_logo_and_wordmark.ffd3b52f1d75158e3d8c.png",
     "static/media/HTML5_logo_and_wordmark.png": "/portfolio/static/media/HTML5_logo_and_wordmark.75d13511a2de626fabaa.png",
     "static/media/JavaScript-logo.png": "/portfolio/static/media/JavaScript-logo.ac9e504211b46cfb0118.png",
     "static/media/GitHub_Invertocat_Logo.png": "/portfolio/static/media/GitHub_Invertocat_Logo.9626667bfeed8b52ed1d.png",
+    "static/media/pict1edit.PNG": "/portfolio/static/media/pict1edit.239c55833c1338344d06.PNG",
     "static/media/node-js-icon.png": "/portfolio/static/media/node-js-icon.8f912e6eff277ae16489.png",
     "static/media/twoletter.txt": "/portfolio/static/media/twoletter.011603fc21619a51b305.txt",
     "index.html": "/portfolio/index.html",
-    "main.ce85f1e2.css.map": "/portfolio/static/css/main.ce85f1e2.css.map",
-    "main.6cb522d2.js.map": "/portfolio/static/js/main.6cb522d2.js.map"
+    "main.19325b3b.css.map": "/portfolio/static/css/main.19325b3b.css.map",
+    "main.5fa21076.js.map": "/portfolio/static/js/main.5fa21076.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce85f1e2.css",
-    "static/js/main.6cb522d2.js"
+    "static/css/main.19325b3b.css",
+    "static/js/main.5fa21076.js"
   ]
 }
