@@ -30,7 +30,7 @@ function App() {
   return (
     <div className = "App">
       <div className = "NavBar font-semibold">
-        <Link to ="/portfolio" className = "Blue"  onClick={HiddenContent}>Home</Link>
+        <Link to ="/" className = "Blue"  onClick={HiddenContent}>Home</Link>
         <Link to ="/profile" onClick={HiddenContent}>About Me</Link>
         <div className = "DropDown">
           <div className = "HoverDrop" onClick={changeStyle}>
@@ -44,7 +44,7 @@ function App() {
       </div>
       <Routes>
         <Route path='*' element={<NotFound/>}/>
-        <Route path = "/portfolio" element = {<Home/>} />
+        <Route path = "/" element = {<Home/>} />
         <Route path = "/words" element = {<Words/>} />
         <Route path = "/profile" element = {<Profile/>} />
         <Route path = "/unity" element = {<UnityGame/>} />
