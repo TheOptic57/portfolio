@@ -3,7 +3,7 @@ import Information from "./Information";
 function Profile() {
   return (
     <div className="Profile">
-      <div className="snap-y snap-mandatory h-screen overflow-scroll">
+      <div className="snap-y snap-mandatory h-screen overflow-scroll scroll-smooth">
         <div className="lg:snap-start lg:grid lg:h-screen mt-10 md:mt-10">
           <Information/>
         </div>
