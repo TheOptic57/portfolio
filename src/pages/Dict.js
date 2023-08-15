@@ -24,15 +24,23 @@ function Dict() {
               setPhonetics(data[0].phonetics[0].text)
               setdefinitions(data[0].meanings[0].definitions[0].definition)
               setSynonyms(data[0].meanings[0].synonyms.join(' '))
-              setSounds(data[0].phonetics[0].audio);
               setClasses("visible")
               setWord(lookup);
+              settingaudio(data[0].phonetics);
             }
-            //console.log(data[0])
           })
+    }
+    async function settingaudio(data) {
+      for(let i = 0; i < await data.length; i++) {
+        if(await data[i].audio) {
+          setSounds(await data[i].audio)
+          break;
+        }
+      }
     }
 
     function playAudio() {
+      //console.log(sounds)
       try {
         let audio = new Audio(sounds);
         audio.play();
