@@ -5,6 +5,7 @@ import Words from "./pages/Words.js"
 import Profile from "./pages/Profile.js"
 //import PastWeb from "./pages/PastWebsite.js"
 import UnityGame from "./pages/UnityGame.js"
+import Dictionary from "./pages/Dict.js"
 import NotFound from "./pages/NotFound.js"
 import "./css/App.css"
 
@@ -38,6 +39,7 @@ function App() {
           </div>
           <div className={style} onClick={changeStyle}>
               <Link to ="/words">Word Game</Link>
+              <Link to ="/dictionary">Dictionary</Link>
               <Link to ="/unity">Unity Game</Link>
           </div>
         </div>
@@ -48,6 +50,7 @@ function App() {
         <Route path = "/words" element = {<Words/>} />
         <Route path = "/profile" element = {<Profile/>} />
         <Route path = "/unity" element = {<UnityGame/>} />
+        <Route path = "/dictionary" element = {<Dictionary/>} />
       </Routes>
     </div>
   );
