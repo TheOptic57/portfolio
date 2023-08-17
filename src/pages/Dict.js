@@ -12,35 +12,57 @@ function Dict() {
     const [sounds, setSounds] = useState("");
     const api = "https://api.dictionaryapi.dev/api/v2/entries/en/";
 
-    const dictionaryData = () => {
-        fetch(api + lookup)
-          .then(response => {
-            return response.json()
-          })
-          .then(data => {
-            //setResult(data[0])
-            if(data[0]) {
+    async function dictionaryData() {
+          const response = await fetch(api + lookup);
+          const data = await response.json()
+          if(data[0]) {
+            if(data[0].meanings[0]) {
               setPartOfSpeech(data[0].meanings[0].partOfSpeech)
-              setPhonetics(data[0].phonetics[0].text)
-              setdefinitions(data[0].meanings[0].definitions[0].definition)
-              setSynonyms(data[0].meanings[0].synonyms.join(' '))
-              setClasses("visible")
-              setWord(lookup);
-              settingaudio(data[0].phonetics);
             }
-          })
+            else {
+              setPartOfSpeech("");
+            }
+            if(data[0].phonetics[0]) {
+              setPhonetics(data[0].phonetics[0].text)
+            }
+            else {
+              setPhonetics("");
+            }
+            if(data[0].meanings[0].definitions[0]) {
+              setdefinitions(data[0].meanings[0].definitions[0].definition)
+            }
+            else {
+              setdefinitions("");
+            }
+            if(data[0].meanings[0]) {
+              setSynonyms(data[0].meanings[0].synonyms.join(' '))
+            }
+            else {
+              setSynonyms("");
+            }
+            setWord(lookup);
+            settingaudio(data[0].phonetics);
+            setClasses("visible")
+          }
+          else {
+            setClasses("invisible")
+          }
     }
     async function settingaudio(data) {
       for(let i = 0; i < await data.length; i++) {
         if(await data[i].audio) {
           setSounds(await data[i].audio)
-          break;
+          return;
         }
       }
+      setSounds("");
     }
 
     function playAudio() {
       //console.log(sounds)
+      if(sounds === "") {
+        return
+      }
       try {
         let audio = new Audio(sounds);
         audio.play();
@@ -56,7 +78,7 @@ function Dict() {
             <h1 className="font-bold font-mono text-2xl md:text-3xl">Dictionary</h1>
           </div>
           <div>
-            <input className="" type="text" value={lookup} onChange={e => setLookUp(e.target.value)}/>
+            <input className="" type="text" value={lookup} onChange={e => setLookUp(e.target.value.replace(/\s+/g, ''))}/>
             <button onClick = {dictionaryData} className="text-base font-semibold lg:text-lg text-white rounded-full bg-blue-500 
             shadow-md hover:scale-110 duration-300 mx-auto ml-[3%] w-[20%]">Search</button>
           </div>
