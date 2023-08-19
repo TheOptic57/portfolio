@@ -7,7 +7,9 @@ import Profile from "./pages/Profile.js"
 import UnityGame from "./pages/UnityGame.js"
 import Dictionary from "./pages/Dict.js"
 import NotFound from "./pages/NotFound.js"
+import Resume from "./pdf/resume.pdf"
 import "./css/App.css"
+
 
 function App() {
   //used to change css
@@ -33,6 +35,7 @@ function App() {
       <div className = "NavBar font-semibold">
         <Link to ="/" className = "Blue"  onClick={HiddenContent}>Home</Link>
         <Link to ="/profile" onClick={HiddenContent}>About Me</Link>
+        <a href = {Resume} target = "_blank" rel="noreferrer">Resume</a>
         <div className = "DropDown">
           <div className = "HoverDrop" onClick={changeStyle}>
             Projects
