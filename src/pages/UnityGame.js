@@ -5,7 +5,7 @@ function UnityGame() {
       <div className="UnityGame pt-20 h-screen">
         <div className=" md:grid grid-cols-2 h-full md:flex md:items-center md:justify-center ">
           <div className="pl-[5%]">
-            <h1 className = "font-mono text-lg md:text-2xl lg:text-4xl font-bold underline text-blue-600 pb-[5%]">Determination Destination</h1>
+            <h1 className = "font-mono text-lg md:text-2xl lg:text-4xl font-bold text-blue-600 pb-[5%]">Determination Destination</h1>
             <p className="font-mono text-base md:text-lg lg:text-2xl font-medium pb-[5%]">
             Determination Destination is a space-themed puzzle mining game. <br/> <br/>
             Determination is a rover whose ship crashed and landed on an alien planet. 

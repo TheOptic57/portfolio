@@ -18,7 +18,7 @@ function Home() {
   return (
     <div className="Home">
       <div className= "grid md:grid-cols-5 gap-2 bg-grey h-screen w-full pt-[5%]">
-        <div className="font-mono text-xl md:text-3xl lg:text-6xl font-semibold pl-16 pt-16 height-full md:col-span-3">
+        <div className="font-mono text-xl md:text-3xl lg:text-5xl font-semibold pl-16 pt-16 height-full md:col-span-3">
           <h1>Hi there, <br/>
           My name is Caleb Zhou <br/>
           Welcome to my website <br/>
