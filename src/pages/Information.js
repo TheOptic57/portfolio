@@ -6,10 +6,10 @@ function Information() {
     <div className="Information px-[5%] bg-grey font-mono md:grid md:grid-cols-9 md:pt-14">
         <div className = "text-left md:col-span-4 flex flex-col flex justify-center"> 
         <h1 className = "font-mono text-lg md:text-2xl lg:text-5xl font-bold text-blue-600">About me</h1>
-          <p className = "pt-[3%] text-xs md:text-xl lg:text-2xl font-medium">
+          <p className = "pt-[3%] text-xs md:text-lg lg:text-xl xl:text-[22px] 2xl:text-3xl font-medium">
             I graduated from Univeristy of Central Florida with a B.S. in Computer Science degree with a 3.75 GPA.
             <br/> <br/>
-            I am mostly skilled in frontend development with some knowledge in backend development. 
+            I am skilled in frontend development with working knowledge in backend development. 
             I enjoy going through the development cycle because it gives me a feeling of accomplishment and pride 
             when I see progress being made while also being able to reflect on how much I have learned.
             <br/> <br/>
