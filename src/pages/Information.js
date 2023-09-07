@@ -20,7 +20,7 @@ function Information() {
 
         </div>
         <div className="relative md:col-span-4"> 
-          <div className="md:scale-75">
+          <div className="about:scale-75">
             <img src = {pict1} alt = "First prototype of a website" className="absolute hover:scale-100  translate-y-[25%] -rotate-12 hover:z-30 duration-300 hover:rotate-0"></img>
             <img src = {pict2} alt = "Second prototype of a website" className="absolute inset-x-0 translate-y-[70%] top-0 rotate-12 z-10 hover:scale-100 hover:z-30 duration-300 hover:rotate-0 -translate-x-[15%]"></img>
             <img src = {pict3} alt = "Third prototype of a website" className="absolute inset-x-0 translate-y-[100%] top-0 -rotate-12 z-20 hover:scale-100 hover:z-30 duration-300 hover:rotate-0"></img>
