@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.94d83487.css",
-    "main.js": "/portfolio/static/js/main.b7cde2ef.js",
+    "main.js": "/portfolio/static/js/main.1fd1076b.js",
     "static/media/words_alpha.txt": "/portfolio/static/media/words_alpha.656453492b8df68ae805.txt",
     "static/media/profilepic.jpg": "/portfolio/static/media/profilepic.dc4a4d4a11694bb9e2d2.jpg",
     "static/media/pict3.PNG": "/portfolio/static/media/pict3.fd2301d2c493faf2fe61.PNG",
@@ -13,7 +13,7 @@
     "static/media/UnityGame3.png": "/portfolio/static/media/UnityGame3.d66f0ade3010a2e4d428.png",
     "static/media/pict2edit.PNG": "/portfolio/static/media/pict2edit.aa4e08c932668a308418.PNG",
     "static/media/1667px-Figma-logo.png": "/portfolio/static/media/1667px-Figma-logo.b08682c3a0753f59813f.png",
-    "static/media/resume.pdf": "/portfolio/static/media/resume.9854e004925876b267d2.pdf",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.dd67166b5782b4d39206.pdf",
     "static/media/CSS3_logo_and_wordmark.png": "/portfolio/static/media/CSS3_logo_and_wordmark.ffd3b52f1d75158e3d8c.png",
     "static/media/HTML5_logo_and_wordmark.png": "/portfolio/static/media/HTML5_logo_and_wordmark.75d13511a2de626fabaa.png",
     "static/media/JavaScript-logo.png": "/portfolio/static/media/JavaScript-logo.ac9e504211b46cfb0118.png",
@@ -23,10 +23,10 @@
     "static/media/twoletter.txt": "/portfolio/static/media/twoletter.011603fc21619a51b305.txt",
     "index.html": "/portfolio/index.html",
     "main.94d83487.css.map": "/portfolio/static/css/main.94d83487.css.map",
-    "main.b7cde2ef.js.map": "/portfolio/static/js/main.b7cde2ef.js.map"
+    "main.1fd1076b.js.map": "/portfolio/static/js/main.1fd1076b.js.map"
   },
   "entrypoints": [
     "static/css/main.94d83487.css",
-    "static/js/main.b7cde2ef.js"
+    "static/js/main.1fd1076b.js"
   ]
 }
