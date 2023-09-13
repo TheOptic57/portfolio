@@ -4,13 +4,13 @@ function Profile() {
   return (
     <div className="Profile">
       <div className="snap-y snap-mandatory h-screen overflow-scroll scroll-smooth">
-        <div className="lg:snap-start lg:grid lg:h-screen mt-10 md:mt-10">
+        <div className="xl:snap-start xl:grid xl:h-screen mt-10 xl:mt-10">
           <Information/>
         </div>
-        <div className="h-2/3 lg:h-full">
+        <div className="h-2/3 xl:h-full">
 
         </div>
-        <div className="lg:snap-start lg:grid lg:h-screen">
+        <div className="xl:snap-start xl:grid xl:h-screen">
           <Skills/>
         </div>
       </div>
